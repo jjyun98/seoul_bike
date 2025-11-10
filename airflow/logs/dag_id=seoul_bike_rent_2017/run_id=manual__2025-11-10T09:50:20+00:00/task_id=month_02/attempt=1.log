@@ -1,0 +1,116 @@
+{"timestamp":"2025-11-10T09:55:43.485114Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-11-10T09:55:43.485630Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/seoul_bike_rent_load.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-11-10T09:55:43.499725Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/seoul_bike_rent_load.py","lineno":4,"logger":"py.warnings"}
+{"timestamp":"2025-11-10T09:55:43.524686Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:55:43.524926Z","level":"info","event":"============================================================","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:55:43.525042Z","level":"info","event":"2017년 2월 처리 시작","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:55:43.525102Z","level":"info","event":"============================================================","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:55:43.533782Z","level":"info","event":"Found credentials in environment variables.","logger":"botocore.credentials","filename":"credentials.py","lineno":1224}
+{"timestamp":"2025-11-10T09:55:44.058014Z","level":"info","event":"유효 정거장 3202개 로드 완료","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:55:44.058523Z","level":"info","event":"[2017-02] 1~7일 처리 중","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:55:44.058628Z","level":"info","event":"[2017-02-01] 데이터 수집 시작","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:55:53.885150Z","level":"info","event":"[2017-02-01] 총 2897건 수집","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:55:53.906137Z","level":"info","event":"  전처리 후: 2,863건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:55:53.906352Z","level":"info","event":"[2017-02-02] 데이터 수집 시작","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:56:03.738591Z","level":"info","event":"[2017-02-02] 총 3114건 수집","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:56:03.776022Z","level":"info","event":"  전처리 후: 3,080건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:56:03.776693Z","level":"info","event":"[2017-02-03] 데이터 수집 시작","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:56:14.062450Z","level":"info","event":"[2017-02-03] 총 3711건 수집","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:56:14.086523Z","level":"info","event":"  전처리 후: 3,667건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:56:14.086715Z","level":"info","event":"[2017-02-04] 데이터 수집 시작","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:56:24.231493Z","level":"info","event":"[2017-02-04] 총 2784건 수집","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:56:24.247675Z","level":"info","event":"  전처리 후: 2,764건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:56:24.247842Z","level":"info","event":"[2017-02-05] 데이터 수집 시작","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:56:33.588694Z","level":"info","event":"[2017-02-05] 총 1413건 수집","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:56:33.605752Z","level":"info","event":"  전처리 후: 1,391건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:56:33.605960Z","level":"info","event":"[2017-02-06] 데이터 수집 시작","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:56:44.052107Z","level":"info","event":"[2017-02-06] 총 3274건 수집","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:56:44.070428Z","level":"info","event":"  전처리 후: 3,231건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:56:44.070624Z","level":"info","event":"[2017-02-07] 데이터 수집 시작","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:56:52.380968Z","level":"info","event":"[2017-02-07] 총 1059건 수집","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:56:52.405317Z","level":"info","event":"  전처리 후: 1,042건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:56:52.476779Z","level":"info","event":"[2017-02] 1~7일 완료: 18,038건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:56:52.725808Z","level":"info","event":"업로드 완료: s3://yn-project-seoul-bike/rent/2017/temp/month_02_week_1.parquet (18,038건)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:56:52.728629Z","level":"info","event":"[2017-02] 8~14일 처리 중","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:56:52.728801Z","level":"info","event":"[2017-02-08] 데이터 수집 시작","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:57:02.155219Z","level":"info","event":"[2017-02-08] 총 2675건 수집","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:57:02.187885Z","level":"info","event":"  전처리 후: 2,620건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:57:02.188190Z","level":"info","event":"[2017-02-09] 데이터 수집 시작","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:57:12.313221Z","level":"info","event":"[2017-02-09] 총 2908건 수집","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:57:12.344521Z","level":"info","event":"  전처리 후: 2,864건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:57:12.344729Z","level":"info","event":"[2017-02-10] 데이터 수집 시작","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:57:22.259725Z","level":"info","event":"[2017-02-10] 총 2481건 수집","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:57:22.286621Z","level":"info","event":"  전처리 후: 2,456건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:57:22.286838Z","level":"info","event":"[2017-02-11] 데이터 수집 시작","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:57:31.907639Z","level":"info","event":"[2017-02-11] 총 1941건 수집","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:57:31.933738Z","level":"info","event":"  전처리 후: 1,917건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:57:31.933957Z","level":"info","event":"[2017-02-12] 데이터 수집 시작","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:57:41.932433Z","level":"info","event":"[2017-02-12] 총 2332건 수집","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:57:41.965856Z","level":"info","event":"  전처리 후: 2,300건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:57:41.966250Z","level":"info","event":"[2017-02-13] 데이터 수집 시작","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:57:52.856554Z","level":"info","event":"[2017-02-13] 총 3705건 수집","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:57:52.899513Z","level":"info","event":"  전처리 후: 3,652건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:57:52.899740Z","level":"info","event":"[2017-02-14] 데이터 수집 시작","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:58:03.761467Z","level":"info","event":"[2017-02-14] 총 3874건 수집","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:58:03.786260Z","level":"info","event":"  전처리 후: 3,829건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:58:03.847939Z","level":"info","event":"[2017-02] 8~14일 완료: 19,638건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:58:04.187879Z","level":"info","event":"업로드 완료: s3://yn-project-seoul-bike/rent/2017/temp/month_02_week_2.parquet (19,638건)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:58:04.193359Z","level":"info","event":"[2017-02] 15~21일 처리 중","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:58:04.193674Z","level":"info","event":"[2017-02-15] 데이터 수집 시작","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:58:16.228219Z","level":"info","event":"[2017-02-15] 총 4378건 수집","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:58:16.265489Z","level":"info","event":"  전처리 후: 4,321건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:58:16.265716Z","level":"info","event":"[2017-02-16] 데이터 수집 시작","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:58:27.212700Z","level":"info","event":"[2017-02-16] 총 4490건 수집","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:58:27.257501Z","level":"info","event":"  전처리 후: 4,447건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:58:27.257730Z","level":"info","event":"[2017-02-17] 데이터 수집 시작","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:58:37.312505Z","level":"info","event":"[2017-02-17] 총 3443건 수집","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:58:37.337177Z","level":"info","event":"  전처리 후: 3,392건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:58:37.337358Z","level":"info","event":"[2017-02-18] 데이터 수집 시작","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:58:47.251357Z","level":"info","event":"[2017-02-18] 총 2629건 수집","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:58:47.286100Z","level":"info","event":"  전처리 후: 2,605건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:58:47.286304Z","level":"info","event":"[2017-02-19] 데이터 수집 시작","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:58:56.858017Z","level":"info","event":"[2017-02-19] 총 1747건 수집","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:58:56.871838Z","level":"info","event":"  전처리 후: 1,735건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:58:56.871984Z","level":"info","event":"[2017-02-20] 데이터 수집 시작","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:59:07.129956Z","level":"info","event":"[2017-02-20] 총 3037건 수집","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:59:07.146497Z","level":"info","event":"  전처리 후: 2,990건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:59:07.146726Z","level":"info","event":"[2017-02-21] 데이터 수집 시작","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:59:17.621537Z","level":"info","event":"[2017-02-21] 총 4001건 수집","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:59:17.643888Z","level":"info","event":"  전처리 후: 3,945건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:59:17.712976Z","level":"info","event":"[2017-02] 15~21일 완료: 23,435건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:59:18.011289Z","level":"info","event":"업로드 완료: s3://yn-project-seoul-bike/rent/2017/temp/month_02_week_3.parquet (23,435건)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:59:18.013678Z","level":"info","event":"[2017-02] 22~28일 처리 중","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:59:18.013832Z","level":"info","event":"[2017-02-22] 데이터 수집 시작","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:59:27.615340Z","level":"info","event":"[2017-02-22] 총 1717건 수집","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:59:27.631596Z","level":"info","event":"  전처리 후: 1,693건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:59:27.631821Z","level":"info","event":"[2017-02-23] 데이터 수집 시작","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:59:37.934922Z","level":"info","event":"[2017-02-23] 총 3403건 수집","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:59:37.971827Z","level":"info","event":"  전처리 후: 3,355건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:59:37.972047Z","level":"info","event":"[2017-02-24] 데이터 수집 시작","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:59:50.184535Z","level":"info","event":"[2017-02-24] 총 3724건 수집","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:59:50.209404Z","level":"info","event":"  전처리 후: 3,686건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T09:59:50.209668Z","level":"info","event":"[2017-02-25] 데이터 수집 시작","logger":"task.stdout"}
+{"timestamp":"2025-11-10T10:00:00.900035Z","level":"info","event":"[2017-02-25] 총 3713건 수집","logger":"task.stdout"}
+{"timestamp":"2025-11-10T10:00:00.941406Z","level":"info","event":"  전처리 후: 3,671건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T10:00:00.941693Z","level":"info","event":"[2017-02-26] 데이터 수집 시작","logger":"task.stdout"}
+{"timestamp":"2025-11-10T10:00:14.572453Z","level":"info","event":"[2017-02-26] 총 4129건 수집","logger":"task.stdout"}
+{"timestamp":"2025-11-10T10:00:14.606573Z","level":"info","event":"  전처리 후: 4,091건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T10:00:14.606757Z","level":"info","event":"[2017-02-27] 데이터 수집 시작","logger":"task.stdout"}
+{"timestamp":"2025-11-10T10:00:26.683590Z","level":"info","event":"[2017-02-27] 총 5133건 수집","logger":"task.stdout"}
+{"timestamp":"2025-11-10T10:00:26.766878Z","level":"info","event":"  전처리 후: 5,083건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T10:00:26.767098Z","level":"info","event":"[2017-02-28] 데이터 수집 시작","logger":"task.stdout"}
+{"timestamp":"2025-11-10T10:00:38.856727Z","level":"info","event":"[2017-02-28] 총 5757건 수집","logger":"task.stdout"}
+{"timestamp":"2025-11-10T10:00:38.889782Z","level":"info","event":"  전처리 후: 5,667건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T10:00:38.983530Z","level":"info","event":"[2017-02] 22~28일 완료: 27,246건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T10:00:39.390823Z","level":"info","event":"업로드 완료: s3://yn-project-seoul-bike/rent/2017/temp/month_02_week_4.parquet (27,246건)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T10:00:39.393715Z","level":"info","event":"[2017-02] 주간 파일 병합 시작 (총 4주)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T10:00:39.657769Z","level":"info","event":"  Week 1: 18,038건 로드","logger":"task.stdout"}
+{"timestamp":"2025-11-10T10:00:39.773730Z","level":"info","event":"  Week 2: 19,638건 로드","logger":"task.stdout"}
+{"timestamp":"2025-11-10T10:00:39.870631Z","level":"info","event":"  Week 3: 23,435건 로드","logger":"task.stdout"}
+{"timestamp":"2025-11-10T10:00:39.965885Z","level":"info","event":"  Week 4: 27,246건 로드","logger":"task.stdout"}
+{"timestamp":"2025-11-10T10:00:40.827560Z","level":"info","event":"업로드 완료: s3://yn-project-seoul-bike/rent/2017/month_02.parquet (88,357건)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T10:00:40.830306Z","level":"info","event":"[2017-02] 최종 병합 완료: 88,357건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T10:00:40.931575Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2025-11-10T10:00:40.932852Z","level":"info","event":"2017년 2월 처리 완료","logger":"task.stdout"}
+{"timestamp":"2025-11-10T10:00:40.932970Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2025-11-10T10:00:40.930642Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":215}
