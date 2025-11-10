@@ -1,0 +1,67 @@
+## Airflow DAG 생성 및 자전거 분석 파이프라인 구현 지침 (수동 검증 포함)
+
+당신은 데이터 엔지니어링 전문가 AI 에이전트입니다. 사용자 요청에 따라 복잡한 자전거 데이터 분석 파이프라인을 자동화하기 위한 **Apache Airflow DAG(Directed Acyclic Graph)**를 Python 코드로 작성해야 합니다. 이 DAG는 사용자가 핵심 단계의 결과를 검토하고 수동으로 다음 단계 실행을 승인할 수 있는 **수동 검증(Manual Approval)** 태스크를 포함해야 합니다.
+
+### 1. 파일명 및 기본 설정
+- **생성 파일명:** `bike_analysis_dag.py`
+- **DAG ID:** `public_bike_route_analysis`
+- **스케줄:** 주 1회 실행 (예: '0 0 * * 0')
+- **기본 설정:** `start_date`는 오늘 날짜로 설정하고, `catchup=False`로 지정합니다.
+- **수동 검증 구현:** 수동 승인 태스크는 Airflow의 `ExternalTaskSensor`를 사용하여 외부 플래그나 별도의 수동 승인 DAG를 트리거하는 방식으로 구현하도록 코드를 스케치합니다. (가장 간단하게는 `PythonOperator` 내에서 사용자에게 알림을 보내고, 사용자 입력이 확인될 때까지 대기하는 로직을 가정하여 스케치합니다.)
+
+### 2. 파이프라인 태스크 정의 (총 13단계)
+
+다음 13가지 작업을 순서대로 실행하는 DAG를 구성해야 합니다. 각 Task는 `PythonOperator`를 사용하고, 해당 작업을 수행하는 **Python 함수**를 DAG 파일 내에 정의합니다.
+
+#### Phase 1: 데이터 준비 및 검증
+1.  **T1: API_DATA_INGESTION**
+    * 함수: `ingest_usage_data()`
+    * 역할: 월간 따릉이 이용내역 API를 호출하여 CSV로 저장합니다.
+2.  **T2: STATION_DATA_LOAD**
+    * 함수: `load_station_data()`
+    * 역할: 정류장 위/경도 파일 (`bike_elevation.csv`)을 로드하여 DataFrame으로 반환합니다.
+3.  **T3: CLEANING_TRANSFORM**
+    * 함수: `clean_and_transform(df)`
+    * 역할: T1 및 T2의 데이터를 입력받아 자료형/인코딩을 정리하고 누락 값을 처리합니다.
+4.  **T4: COLUMN_ALIGN_MERGE**
+    * 함수: `align_and_merge(usage_df, station_df)`
+    * 역할: 이용내역과 정류소 좌표를 Merge하여 출발/도착 위경도를 포함한 통합 DataFrame을 생성하고 저장합니다.
+5.  **A1: MANUAL_APPROVAL_MERGE**
+    * 함수: `wait_for_manual_approval(task_id)`
+    * 역할: T4의 결과 파일이 정확한지 사용자가 검토하고 승인할 때까지 DAG 실행을 대기합니다.
+6.  **T5: TIME_BIN_GROUPING**
+    * 함수: `group_by_time_and_route(merged_df)`
+    * 역할: 1시간 단위로 데이터를 분할하고, 출발지-도착지가 같은 동선을 묶어 **그룹 크기 (`route_volume`)**를 계산합니다.
+7.  **A2: MANUAL_APPROVAL_GROUPING**
+    * 함수: `wait_for_manual_approval(task_id)`
+    * 역할: T5의 그룹 크기(`route_volume`) 계산 결과가 분석 목표에 적합한지 사용자가 검토하고 승인할 때까지 대기합니다.
+
+#### Phase 2: GIS 경로 분석 및 검증
+8.  **T6: OSMNX_NETWORK_SETUP**
+    * 함수: `setup_osmnx_network()`
+    * 역할: 자전거 통행 가능한 도로망 그래프를 `osmnx`를 이용해 다운로드하고 저장합니다.
+9.  **T7: PRIORITY_WEIGHT_DESIGN**
+    * 함수: `design_weights(G)`
+    * 역할: OSMnx 그래프 `G`의 엣지에 자전거 선호도에 따른 커스텀 가중치(Cost)를 부여하는 함수 로직을 정의합니다.
+10. **T8: ROUTE_CALCULATION**
+    * 함수: `calculate_optimal_routes(grouped_routes, G)`
+    * 역할: T5의 그룹 데이터와 T7의 가중치를 사용하여 모든 고유 동선에 대한 최적 경로 좌표 시퀀스를 계산하고 저장합니다.
+11. **A3: MANUAL_APPROVAL_ROUTING**
+    * 함수: `wait_for_manual_approval(task_id)`
+    * 역할: T8에서 생성된 경로 샘플이 자전거 우선순위(자전거도로 선호)를 올바르게 반영했는지 사용자가 최종 검토하고 승인할 때까지 대기합니다.
+
+#### Phase 3: 시각화 데이터 구성
+12. **T9: ANIMATION_FRAME_PREP**
+    * 함수: `prepare_animation_frames(routes_data)`
+    * 역할: 경로 좌표와 그룹 크기를 결합하여, **5초당 1시간의 움직임을 표현**하는 애니메이션 프레임 구조의 최종 DataFrame을 생성합니다.
+13. **T10: VISUALIZATION_EXPORT**
+    * 함수: `export_visualization_data(final_df)`
+    * 역할: 최종 시각화 데이터를 **`processed/bike_animation_data.csv`** 파일에 저장합니다.
+
+### 3. 태스크 의존성 정의
+-   의존성 흐름: **(T1, T2) >> T3 >> T4 >> A1 >> T5 >> A2 >> (T6, T7) >> T8 >> A3 >> T9 >> T10**
+    * T6와 T7은 동시에 실행될 수 있지만, T8 이전에 모두 완료되어야 합니다.
+
+### 4. 최종 출력
+
+-   위에 명시된 모든 DAG 로직과 Python 함수가 포함된 **`bike_analysis_dag.py`** 파일의 전체 코드를 출력하세요.

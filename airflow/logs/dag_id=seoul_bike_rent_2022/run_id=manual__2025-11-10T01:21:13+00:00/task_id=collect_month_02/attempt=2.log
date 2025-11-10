@@ -1,0 +1,82 @@
+{"timestamp":"2025-11-10T01:33:38.583729Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-11-10T01:33:38.585270Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/seoul_bike_rent_2022.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-11-10T01:33:38.609632Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/seoul_bike_rent_2022.py","lineno":2,"logger":"py.warnings"}
+{"timestamp":"2025-11-10T01:33:38.654326Z","level":"info","event":"Found credentials in environment variables.","logger":"botocore.credentials","filename":"credentials.py","lineno":1224}
+{"timestamp":"2025-11-10T01:33:40.509981Z","level":"info","event":"유효한 정거장 3202개 로드","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:33:41.293639Z","level":"info","event":"2022-02-01 00시: 1~284 완료 (284개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:02.586428Z","level":"info","event":"2022-02-01 01시: 요청 실패 - HTTPConnectionPool(host='openapi.seoul.go.kr', port=8088): Max retries exceeded with url: /574d4268426539373930666f4b654e/json/tbCycleRentData/1/5/2022-02-01/1 (Caused by NameResolutionError(\"<urllib3.connection.HTTPConnection object at 0xffff8e400440>: Failed to resolve 'openapi.seoul.go.kr' ([Errno -3] Temporary failure in name resolution)\"))","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:04.165745Z","level":"info","event":"2022-02-01 02시: 1~157 완료 (441개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:04.658435Z","level":"info","event":"2022-02-01 03시: 1~65 완료 (506개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:05.111147Z","level":"info","event":"2022-02-01 04시: 1~35 완료 (541개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:05.652541Z","level":"info","event":"2022-02-01 05시: 1~57 완료 (598개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:06.190737Z","level":"info","event":"2022-02-01 06시: 1~86 완료 (684개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:06.730515Z","level":"info","event":"2022-02-01 07시: 1~129 완료 (813개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:07.288897Z","level":"info","event":"2022-02-01 08시: 1~214 완료 (1027개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:07.875970Z","level":"info","event":"2022-02-01 09시: 1~229 완료 (1256개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:08.409440Z","level":"info","event":"2022-02-01 10시: 1~311 완료 (1567개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:09.017483Z","level":"info","event":"2022-02-01 11시: 1~507 완료 (2074개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:09.638587Z","level":"info","event":"2022-02-01 12시: 1~677 완료 (2751개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:10.299710Z","level":"info","event":"2022-02-01 13시: 1~867 완료 (3618개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:11.018932Z","level":"info","event":"2022-02-01 14시: 1~1000 완료 (4618개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:11.349261Z","level":"info","event":"2022-02-01 14시: 1001~1078 완료 (4696개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:12.100451Z","level":"info","event":"2022-02-01 15시: 1~1000 완료 (5696개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:12.460769Z","level":"info","event":"2022-02-01 15시: 1001~1203 완료 (5899개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:13.208218Z","level":"info","event":"2022-02-01 16시: 1~1000 완료 (6899개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:13.678204Z","level":"info","event":"2022-02-01 16시: 1001~1564 완료 (7463개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:14.450804Z","level":"info","event":"2022-02-01 17시: 1~1000 완료 (8463개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:14.865872Z","level":"info","event":"2022-02-01 17시: 1001~1475 완료 (8938개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:15.630086Z","level":"info","event":"2022-02-01 18시: 1~1000 완료 (9938개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:15.984058Z","level":"info","event":"2022-02-01 18시: 1001~1266 완료 (10204개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:16.668221Z","level":"info","event":"2022-02-01 19시: 1~1000 완료 (11204개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:17.029170Z","level":"info","event":"2022-02-01 19시: 1001~1163 완료 (11367개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:17.897698Z","level":"info","event":"2022-02-01 20시: 1~994 완료 (12361개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:18.756567Z","level":"info","event":"2022-02-01 21시: 1~1000 완료 (13361개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:19.090513Z","level":"info","event":"2022-02-01 21시: 1001~1003 완료 (13364개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:19.949157Z","level":"info","event":"2022-02-01 22시: 1~742 완료 (14106개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:20.553128Z","level":"info","event":"2022-02-01 23시: 1~540 완료 (14646개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:21.304127Z","level":"info","event":"2022-02-02 00시: 1~474 완료 (15120개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:22.082734Z","level":"info","event":"2022-02-02 01시: 1~311 완료 (15431개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:22.798540Z","level":"info","event":"2022-02-02 02시: 1~179 완료 (15610개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:23.467779Z","level":"info","event":"2022-02-02 03시: 1~152 완료 (15762개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:24.120806Z","level":"info","event":"2022-02-02 04시: 1~120 완료 (15882개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:24.812837Z","level":"info","event":"2022-02-02 05시: 1~157 완료 (16039개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:25.545179Z","level":"info","event":"2022-02-02 06시: 1~185 완료 (16224개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:26.295101Z","level":"info","event":"2022-02-02 07시: 1~343 완료 (16567개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:27.068187Z","level":"info","event":"2022-02-02 08시: 1~679 완료 (17246개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:27.998061Z","level":"info","event":"2022-02-02 09시: 1~962 완료 (18208개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:28.933061Z","level":"info","event":"2022-02-02 10시: 1~1000 완료 (19208개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:29.407522Z","level":"info","event":"2022-02-02 10시: 1001~1301 완료 (19509개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:30.297055Z","level":"info","event":"2022-02-02 11시: 1~1000 완료 (20509개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:30.815481Z","level":"info","event":"2022-02-02 11시: 1001~1666 완료 (21175개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:31.918167Z","level":"info","event":"2022-02-02 12시: 1~1000 완료 (22175개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:32.505502Z","level":"info","event":"2022-02-02 12시: 1001~1971 완료 (23146개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:33.398218Z","level":"info","event":"2022-02-02 13시: 1~1000 완료 (24146개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:33.967660Z","level":"info","event":"2022-02-02 13시: 1001~2000 완료 (25146개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:34.942075Z","level":"info","event":"2022-02-02 13시: 2001~2328 완료 (25474개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:35.903305Z","level":"info","event":"2022-02-02 14시: 1~1000 완료 (26474개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:36.499856Z","level":"info","event":"2022-02-02 14시: 1001~2000 완료 (27474개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:37.014161Z","level":"info","event":"2022-02-02 14시: 2001~2634 완료 (28108개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:38.025505Z","level":"info","event":"2022-02-02 15시: 1~1000 완료 (29108개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:38.608165Z","level":"info","event":"2022-02-02 15시: 1001~2000 완료 (30108개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:39.167581Z","level":"info","event":"2022-02-02 15시: 2001~2699 완료 (30807개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:40.134871Z","level":"info","event":"2022-02-02 16시: 1~1000 완료 (31807개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:40.741456Z","level":"info","event":"2022-02-02 16시: 1001~2000 완료 (32807개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:41.279429Z","level":"info","event":"2022-02-02 16시: 2001~2747 완료 (33554개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:42.231921Z","level":"info","event":"2022-02-02 17시: 1~1000 완료 (34554개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:42.891286Z","level":"info","event":"2022-02-02 17시: 1001~2000 완료 (35554개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:43.436589Z","level":"info","event":"2022-02-02 17시: 2001~2609 완료 (36163개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:44.357686Z","level":"info","event":"2022-02-02 18시: 1~1000 완료 (37163개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:44.920021Z","level":"info","event":"2022-02-02 18시: 1001~2000 완료 (38163개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:45.387438Z","level":"info","event":"2022-02-02 18시: 2001~2021 완료 (38184개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:46.251107Z","level":"info","event":"2022-02-02 19시: 1~1000 완료 (39184개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:46.738713Z","level":"info","event":"2022-02-02 19시: 1001~1636 완료 (39820개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:47.724526Z","level":"info","event":"2022-02-02 20시: 1~1000 완료 (40820개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:48.325343Z","level":"info","event":"2022-02-02 20시: 1001~1541 완료 (41361개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:49.152540Z","level":"info","event":"2022-02-02 21시: 1~1000 완료 (42361개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:49.697284Z","level":"info","event":"2022-02-02 21시: 1001~1583 완료 (42944개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:50.685865Z","level":"info","event":"2022-02-02 22시: 1~1000 완료 (43944개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:51.116075Z","level":"info","event":"2022-02-02 22시: 1001~1127 완료 (44071개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:51.880924Z","level":"info","event":"2022-02-02 23시: 1~640 완료 (44711개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:52.193432Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:52.193710Z","level":"info","event":"2022년 2월 총 44711개 수집 완료","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:34:52.214308Z","level":"error","event":"Task failed with exception","logger":"task","filename":"task_runner.py","lineno":999,"error_detail":[{"exc_type":"KeyError","exc_value":"\"['대여 대여소명', '반납대여소명', '자전거번호', '대여거치대', '반납거치대', '이용시간(분)', '반납대여소번호', '대여 대여소번호'] not found in axis\"","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":925,"name":"run"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":1312,"name":"_execute_task"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/bases/operator.py","lineno":416,"name":"wrapper"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":213,"name":"execute"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":236,"name":"execute_callable"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/callback_runner.py","lineno":82,"name":"run"},{"filename":"/opt/airflow/dags/seoul_bike_rent_2022.py","lineno":40,"name":"collect_month"},{"filename":"/opt/airflow/plugins/rent_history_utils.py","lineno":102,"name":"preprocess_rent_data"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/pandas/core/frame.py","lineno":5344,"name":"drop"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/pandas/core/generic.py","lineno":4711,"name":"drop"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/pandas/core/generic.py","lineno":4753,"name":"_drop_axis"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/pandas/core/indexes/base.py","lineno":7000,"name":"drop"}],"is_group":false,"exceptions":[]}]}

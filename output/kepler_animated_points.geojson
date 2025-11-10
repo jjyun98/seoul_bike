@@ -1,0 +1,4631 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 0,
+        "point_order": 0,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8261361,
+          37.5537226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 1,
+        "point_order": 1,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.826365,
+          37.5554435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 2,
+        "point_order": 2,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8266674,
+          37.558048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 3,
+        "point_order": 3,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8267725,
+          37.5589308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 4,
+        "point_order": 4,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8267977,
+          37.5591716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 5,
+        "point_order": 5,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8268453,
+          37.5596123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 6,
+        "point_order": 6,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8268553,
+          37.5596801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 7,
+        "point_order": 7,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8268641,
+          37.5597401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 8,
+        "point_order": 8,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8268742,
+          37.5598084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 9,
+        "point_order": 9,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8269422,
+          37.5602707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 10,
+        "point_order": 10,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8270375,
+          37.5608822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 11,
+        "point_order": 11,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8271935,
+          37.5618752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 12,
+        "point_order": 12,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8273842,
+          37.5631274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 13,
+        "point_order": 13,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8275779,
+          37.564377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 14,
+        "point_order": 14,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8287414,
+          37.5642665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 15,
+        "point_order": 15,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8316493,
+          37.5639918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 16,
+        "point_order": 16,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8329762,
+          37.5638675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 17,
+        "point_order": 17,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8334987,
+          37.5638189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 18,
+        "point_order": 18,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8339852,
+          37.563773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 19,
+        "point_order": 19,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8345646,
+          37.5637179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 20,
+        "point_order": 20,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8361004,
+          37.5635761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 21,
+        "point_order": 21,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8369715,
+          37.5635083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 22,
+        "point_order": 22,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8376166,
+          37.5634535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 23,
+        "point_order": 23,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8389915,
+          37.5633222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 24,
+        "point_order": 24,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8397549,
+          37.5632238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 25,
+        "point_order": 25,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8407464,
+          37.5630196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 26,
+        "point_order": 26,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8422659,
+          37.5627175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 27,
+        "point_order": 27,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8449877,
+          37.5619432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 28,
+        "point_order": 28,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8463063,
+          37.5613863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 29,
+        "point_order": 29,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8467059,
+          37.561257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 30,
+        "point_order": 30,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8471076,
+          37.56177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 31,
+        "point_order": 31,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8483016,
+          37.5635833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 32,
+        "point_order": 32,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8488798,
+          37.5643921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 33,
+        "point_order": 33,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.849103,
+          37.5647307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 34,
+        "point_order": 34,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8498355,
+          37.5658664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 35,
+        "point_order": 35,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8509208,
+          37.5672965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 36,
+        "point_order": 36,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8508078,
+          37.5673947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 37,
+        "point_order": 37,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8505903,
+          37.5676202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 38,
+        "point_order": 38,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8497277,
+          37.5682999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 39,
+        "point_order": 39,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8491563,
+          37.5687235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 0,
+        "name": "노선0",
+        "usage": 150.0,
+        "timestamp": 40,
+        "point_order": 40,
+        "total_points": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8484843,
+          37.5690926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 1,
+        "name": "노선1",
+        "usage": 51.0,
+        "timestamp": 0,
+        "point_order": 0,
+        "total_points": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.922361,
+          37.5648301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 1,
+        "name": "노선1",
+        "usage": 51.0,
+        "timestamp": 1,
+        "point_order": 1,
+        "total_points": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9217424,
+          37.5645119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 1,
+        "name": "노선1",
+        "usage": 51.0,
+        "timestamp": 2,
+        "point_order": 2,
+        "total_points": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9212428,
+          37.5642613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 1,
+        "name": "노선1",
+        "usage": 51.0,
+        "timestamp": 3,
+        "point_order": 3,
+        "total_points": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9214218,
+          37.5640324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 1,
+        "name": "노선1",
+        "usage": 51.0,
+        "timestamp": 4,
+        "point_order": 4,
+        "total_points": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9215911,
+          37.563825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 1,
+        "name": "노선1",
+        "usage": 51.0,
+        "timestamp": 5,
+        "point_order": 5,
+        "total_points": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9218118,
+          37.5635467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 1,
+        "name": "노선1",
+        "usage": 51.0,
+        "timestamp": 6,
+        "point_order": 6,
+        "total_points": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.922085,
+          37.5632061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 1,
+        "name": "노선1",
+        "usage": 51.0,
+        "timestamp": 7,
+        "point_order": 7,
+        "total_points": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9224274,
+          37.5627779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 1,
+        "name": "노선1",
+        "usage": 51.0,
+        "timestamp": 8,
+        "point_order": 8,
+        "total_points": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9228219,
+          37.5622849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 1,
+        "name": "노선1",
+        "usage": 51.0,
+        "timestamp": 9,
+        "point_order": 9,
+        "total_points": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9232207,
+          37.5617924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 1,
+        "name": "노선1",
+        "usage": 51.0,
+        "timestamp": 10,
+        "point_order": 10,
+        "total_points": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9241803,
+          37.5605928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 1,
+        "name": "노선1",
+        "usage": 51.0,
+        "timestamp": 11,
+        "point_order": 11,
+        "total_points": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9247582,
+          37.5598214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 1,
+        "name": "노선1",
+        "usage": 51.0,
+        "timestamp": 12,
+        "point_order": 12,
+        "total_points": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9250939,
+          37.5593845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 1,
+        "name": "노선1",
+        "usage": 51.0,
+        "timestamp": 13,
+        "point_order": 13,
+        "total_points": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9256008,
+          37.5597576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 1,
+        "name": "노선1",
+        "usage": 51.0,
+        "timestamp": 14,
+        "point_order": 14,
+        "total_points": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9259076,
+          37.559679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 1,
+        "name": "노선1",
+        "usage": 51.0,
+        "timestamp": 15,
+        "point_order": 15,
+        "total_points": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9254279,
+          37.558916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 1,
+        "name": "노선1",
+        "usage": 51.0,
+        "timestamp": 16,
+        "point_order": 16,
+        "total_points": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9256287,
+          37.5586438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 1,
+        "name": "노선1",
+        "usage": 51.0,
+        "timestamp": 17,
+        "point_order": 17,
+        "total_points": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9257529,
+          37.5584675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 1,
+        "name": "노선1",
+        "usage": 51.0,
+        "timestamp": 18,
+        "point_order": 18,
+        "total_points": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9255789,
+          37.5583347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 2,
+        "name": "노선2",
+        "usage": 28.0,
+        "timestamp": 0,
+        "point_order": 0,
+        "total_points": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0694506,
+          37.5687403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 2,
+        "name": "노선2",
+        "usage": 28.0,
+        "timestamp": 1,
+        "point_order": 1,
+        "total_points": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0687795,
+          37.5676942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 2,
+        "name": "노선2",
+        "usage": 28.0,
+        "timestamp": 2,
+        "point_order": 2,
+        "total_points": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0683793,
+          37.5670794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 2,
+        "name": "노선2",
+        "usage": 28.0,
+        "timestamp": 3,
+        "point_order": 3,
+        "total_points": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0680584,
+          37.5665789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 2,
+        "name": "노선2",
+        "usage": 28.0,
+        "timestamp": 4,
+        "point_order": 4,
+        "total_points": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0676898,
+          37.5660131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 2,
+        "name": "노선2",
+        "usage": 28.0,
+        "timestamp": 5,
+        "point_order": 5,
+        "total_points": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0673014,
+          37.5654706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 2,
+        "name": "노선2",
+        "usage": 28.0,
+        "timestamp": 6,
+        "point_order": 6,
+        "total_points": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0666431,
+          37.5645018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 2,
+        "name": "노선2",
+        "usage": 28.0,
+        "timestamp": 7,
+        "point_order": 7,
+        "total_points": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0662424,
+          37.5639197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 2,
+        "name": "노선2",
+        "usage": 28.0,
+        "timestamp": 8,
+        "point_order": 8,
+        "total_points": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0656616,
+          37.5630797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 2,
+        "name": "노선2",
+        "usage": 28.0,
+        "timestamp": 9,
+        "point_order": 9,
+        "total_points": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0650717,
+          37.5622364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 2,
+        "name": "노선2",
+        "usage": 28.0,
+        "timestamp": 10,
+        "point_order": 10,
+        "total_points": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0649633,
+          37.5620765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 2,
+        "name": "노선2",
+        "usage": 28.0,
+        "timestamp": 11,
+        "point_order": 11,
+        "total_points": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0646506,
+          37.5615719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 2,
+        "name": "노선2",
+        "usage": 28.0,
+        "timestamp": 12,
+        "point_order": 12,
+        "total_points": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.064624,
+          37.561392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 2,
+        "name": "노선2",
+        "usage": 28.0,
+        "timestamp": 13,
+        "point_order": 13,
+        "total_points": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0645282,
+          37.561406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 2,
+        "name": "노선2",
+        "usage": 28.0,
+        "timestamp": 14,
+        "point_order": 14,
+        "total_points": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.063817,
+          37.5615059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 3,
+        "name": "노선3",
+        "usage": 20.0,
+        "timestamp": 0,
+        "point_order": 0,
+        "total_points": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8179873,
+          37.5509611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 3,
+        "name": "노선3",
+        "usage": 20.0,
+        "timestamp": 1,
+        "point_order": 1,
+        "total_points": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8187901,
+          37.5515963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 3,
+        "name": "노선3",
+        "usage": 20.0,
+        "timestamp": 2,
+        "point_order": 2,
+        "total_points": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8196487,
+          37.5521848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 3,
+        "name": "노선3",
+        "usage": 20.0,
+        "timestamp": 3,
+        "point_order": 3,
+        "total_points": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8197584,
+          37.5542733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 3,
+        "name": "노선3",
+        "usage": 20.0,
+        "timestamp": 4,
+        "point_order": 4,
+        "total_points": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8193454,
+          37.5544177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 3,
+        "name": "노선3",
+        "usage": 20.0,
+        "timestamp": 5,
+        "point_order": 5,
+        "total_points": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8192644,
+          37.5544812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 3,
+        "name": "노선3",
+        "usage": 20.0,
+        "timestamp": 6,
+        "point_order": 6,
+        "total_points": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8202411,
+          37.5552582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 3,
+        "name": "노선3",
+        "usage": 20.0,
+        "timestamp": 7,
+        "point_order": 7,
+        "total_points": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8199868,
+          37.5554873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 3,
+        "name": "노선3",
+        "usage": 20.0,
+        "timestamp": 8,
+        "point_order": 8,
+        "total_points": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8199561,
+          37.5564344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 3,
+        "name": "노선3",
+        "usage": 20.0,
+        "timestamp": 9,
+        "point_order": 9,
+        "total_points": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8199426,
+          37.5568487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 3,
+        "name": "노선3",
+        "usage": 20.0,
+        "timestamp": 10,
+        "point_order": 10,
+        "total_points": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.818399,
+          37.5566599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 4,
+        "name": "노선4",
+        "usage": 24.0,
+        "timestamp": 0,
+        "point_order": 0,
+        "total_points": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0156671,
+          37.5149143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 4,
+        "name": "노선4",
+        "usage": 24.0,
+        "timestamp": 1,
+        "point_order": 1,
+        "total_points": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0145814,
+          37.5150128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 4,
+        "name": "노선4",
+        "usage": 24.0,
+        "timestamp": 2,
+        "point_order": 2,
+        "total_points": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0135705,
+          37.5146426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 4,
+        "name": "노선4",
+        "usage": 24.0,
+        "timestamp": 3,
+        "point_order": 3,
+        "total_points": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0133484,
+          37.5138164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 4,
+        "name": "노선4",
+        "usage": 24.0,
+        "timestamp": 4,
+        "point_order": 4,
+        "total_points": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0132476,
+          37.5130344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 4,
+        "name": "노선4",
+        "usage": 24.0,
+        "timestamp": 5,
+        "point_order": 5,
+        "total_points": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.012557,
+          37.5100354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 4,
+        "name": "노선4",
+        "usage": 24.0,
+        "timestamp": 6,
+        "point_order": 6,
+        "total_points": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0119577,
+          37.5094558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 4,
+        "name": "노선4",
+        "usage": 24.0,
+        "timestamp": 7,
+        "point_order": 7,
+        "total_points": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0105994,
+          37.510362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 4,
+        "name": "노선4",
+        "usage": 24.0,
+        "timestamp": 8,
+        "point_order": 8,
+        "total_points": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0096393,
+          37.5120376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 4,
+        "name": "노선4",
+        "usage": 24.0,
+        "timestamp": 9,
+        "point_order": 9,
+        "total_points": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0071352,
+          37.5108214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 4,
+        "name": "노선4",
+        "usage": 24.0,
+        "timestamp": 10,
+        "point_order": 10,
+        "total_points": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0064589,
+          37.5104907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 4,
+        "name": "노선4",
+        "usage": 24.0,
+        "timestamp": 11,
+        "point_order": 11,
+        "total_points": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0067817,
+          37.5098274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 4,
+        "name": "노선4",
+        "usage": 24.0,
+        "timestamp": 12,
+        "point_order": 12,
+        "total_points": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0072243,
+          37.5099743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 5,
+        "name": "노선5",
+        "usage": 30.0,
+        "timestamp": 0,
+        "point_order": 0,
+        "total_points": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9704198,
+          37.5747658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 5,
+        "name": "노선5",
+        "usage": 30.0,
+        "timestamp": 1,
+        "point_order": 1,
+        "total_points": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9702086,
+          37.5748871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 5,
+        "name": "노선5",
+        "usage": 30.0,
+        "timestamp": 2,
+        "point_order": 2,
+        "total_points": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9703961,
+          37.5759668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 5,
+        "name": "노선5",
+        "usage": 30.0,
+        "timestamp": 3,
+        "point_order": 3,
+        "total_points": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9726384,
+          37.575784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 5,
+        "name": "노선5",
+        "usage": 30.0,
+        "timestamp": 4,
+        "point_order": 4,
+        "total_points": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9742918,
+          37.5756733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 5,
+        "name": "노선5",
+        "usage": 30.0,
+        "timestamp": 5,
+        "point_order": 5,
+        "total_points": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9753109,
+          37.5756625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 5,
+        "name": "노선5",
+        "usage": 30.0,
+        "timestamp": 6,
+        "point_order": 6,
+        "total_points": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9768554,
+          37.5751383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 5,
+        "name": "노선5",
+        "usage": 30.0,
+        "timestamp": 7,
+        "point_order": 7,
+        "total_points": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9770789,
+          37.5748896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 5,
+        "name": "노선5",
+        "usage": 30.0,
+        "timestamp": 8,
+        "point_order": 8,
+        "total_points": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9770763,
+          37.5702803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 5,
+        "name": "노선5",
+        "usage": 30.0,
+        "timestamp": 9,
+        "point_order": 9,
+        "total_points": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9770645,
+          37.5701365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 5,
+        "name": "노선5",
+        "usage": 30.0,
+        "timestamp": 10,
+        "point_order": 10,
+        "total_points": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9770279,
+          37.5696339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 5,
+        "name": "노선5",
+        "usage": 30.0,
+        "timestamp": 11,
+        "point_order": 11,
+        "total_points": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9770347,
+          37.5690517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 5,
+        "name": "노선5",
+        "usage": 30.0,
+        "timestamp": 12,
+        "point_order": 12,
+        "total_points": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9770423,
+          37.5684059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 5,
+        "name": "노선5",
+        "usage": 30.0,
+        "timestamp": 13,
+        "point_order": 13,
+        "total_points": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9771089,
+          37.5671416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 5,
+        "name": "노선5",
+        "usage": 30.0,
+        "timestamp": 14,
+        "point_order": 14,
+        "total_points": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9771167,
+          37.5666372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 5,
+        "name": "노선5",
+        "usage": 30.0,
+        "timestamp": 15,
+        "point_order": 15,
+        "total_points": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.977084,
+          37.5649238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 6,
+        "name": "노선6",
+        "usage": 20.0,
+        "timestamp": 0,
+        "point_order": 0,
+        "total_points": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8950065,
+          37.5190228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 6,
+        "name": "노선6",
+        "usage": 20.0,
+        "timestamp": 1,
+        "point_order": 1,
+        "total_points": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8966873,
+          37.5188274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 6,
+        "name": "노선6",
+        "usage": 20.0,
+        "timestamp": 2,
+        "point_order": 2,
+        "total_points": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8983766,
+          37.5186749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 6,
+        "name": "노선6",
+        "usage": 20.0,
+        "timestamp": 3,
+        "point_order": 3,
+        "total_points": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8994622,
+          37.5185775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 6,
+        "name": "노선6",
+        "usage": 20.0,
+        "timestamp": 4,
+        "point_order": 4,
+        "total_points": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8994953,
+          37.5185741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 6,
+        "name": "노선6",
+        "usage": 20.0,
+        "timestamp": 5,
+        "point_order": 5,
+        "total_points": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9007817,
+          37.5184663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 6,
+        "name": "노선6",
+        "usage": 20.0,
+        "timestamp": 6,
+        "point_order": 6,
+        "total_points": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9009663,
+          37.5184904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 6,
+        "name": "노선6",
+        "usage": 20.0,
+        "timestamp": 7,
+        "point_order": 7,
+        "total_points": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9012977,
+          37.5184476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 6,
+        "name": "노선6",
+        "usage": 20.0,
+        "timestamp": 8,
+        "point_order": 8,
+        "total_points": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9019448,
+          37.518323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 6,
+        "name": "노선6",
+        "usage": 20.0,
+        "timestamp": 9,
+        "point_order": 9,
+        "total_points": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.902043,
+          37.5183153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 6,
+        "name": "노선6",
+        "usage": 20.0,
+        "timestamp": 10,
+        "point_order": 10,
+        "total_points": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9024393,
+          37.5182798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 7,
+        "name": "노선7",
+        "usage": 22.0,
+        "timestamp": 0,
+        "point_order": 0,
+        "total_points": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8724278,
+          37.5149749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 7,
+        "name": "노선7",
+        "usage": 22.0,
+        "timestamp": 1,
+        "point_order": 1,
+        "total_points": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8720942,
+          37.5148571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 7,
+        "name": "노선7",
+        "usage": 22.0,
+        "timestamp": 2,
+        "point_order": 2,
+        "total_points": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8713452,
+          37.5146044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 7,
+        "name": "노선7",
+        "usage": 22.0,
+        "timestamp": 3,
+        "point_order": 3,
+        "total_points": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8702619,
+          37.5142337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 7,
+        "name": "노선7",
+        "usage": 22.0,
+        "timestamp": 4,
+        "point_order": 4,
+        "total_points": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8697496,
+          37.5140584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 7,
+        "name": "노선7",
+        "usage": 22.0,
+        "timestamp": 5,
+        "point_order": 5,
+        "total_points": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.869443,
+          37.5146116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 7,
+        "name": "노선7",
+        "usage": 22.0,
+        "timestamp": 6,
+        "point_order": 6,
+        "total_points": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8661404,
+          37.5210807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 7,
+        "name": "노선7",
+        "usage": 22.0,
+        "timestamp": 7,
+        "point_order": 7,
+        "total_points": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8655746,
+          37.5222064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 7,
+        "name": "노선7",
+        "usage": 22.0,
+        "timestamp": 8,
+        "point_order": 8,
+        "total_points": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8654249,
+          37.522495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 7,
+        "name": "노선7",
+        "usage": 22.0,
+        "timestamp": 9,
+        "point_order": 9,
+        "total_points": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8665151,
+          37.5229025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 7,
+        "name": "노선7",
+        "usage": 22.0,
+        "timestamp": 10,
+        "point_order": 10,
+        "total_points": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8666547,
+          37.5227295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 7,
+        "name": "노선7",
+        "usage": 22.0,
+        "timestamp": 11,
+        "point_order": 11,
+        "total_points": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8683976,
+          37.5198313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 8,
+        "name": "노선8",
+        "usage": 40.0,
+        "timestamp": 0,
+        "point_order": 0,
+        "total_points": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9084525,
+          37.4958363
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 8,
+        "name": "노선8",
+        "usage": 40.0,
+        "timestamp": 1,
+        "point_order": 1,
+        "total_points": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9085106,
+          37.4955147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 8,
+        "name": "노선8",
+        "usage": 40.0,
+        "timestamp": 2,
+        "point_order": 2,
+        "total_points": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9087226,
+          37.4948408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 8,
+        "name": "노선8",
+        "usage": 40.0,
+        "timestamp": 3,
+        "point_order": 3,
+        "total_points": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9088614,
+          37.494365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 8,
+        "name": "노선8",
+        "usage": 40.0,
+        "timestamp": 4,
+        "point_order": 4,
+        "total_points": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9074495,
+          37.4929011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 8,
+        "name": "노선8",
+        "usage": 40.0,
+        "timestamp": 5,
+        "point_order": 5,
+        "total_points": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9090408,
+          37.4922855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 8,
+        "name": "노선8",
+        "usage": 40.0,
+        "timestamp": 6,
+        "point_order": 6,
+        "total_points": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9090521,
+          37.4922161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 8,
+        "name": "노선8",
+        "usage": 40.0,
+        "timestamp": 7,
+        "point_order": 7,
+        "total_points": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9090549,
+          37.4921735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 8,
+        "name": "노선8",
+        "usage": 40.0,
+        "timestamp": 8,
+        "point_order": 8,
+        "total_points": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9078818,
+          37.490632
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 8,
+        "name": "노선8",
+        "usage": 40.0,
+        "timestamp": 9,
+        "point_order": 9,
+        "total_points": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.907136,
+          37.4897527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 8,
+        "name": "노선8",
+        "usage": 40.0,
+        "timestamp": 10,
+        "point_order": 10,
+        "total_points": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.906408,
+          37.4888132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 8,
+        "name": "노선8",
+        "usage": 40.0,
+        "timestamp": 11,
+        "point_order": 11,
+        "total_points": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9045195,
+          37.4865907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 8,
+        "name": "노선8",
+        "usage": 40.0,
+        "timestamp": 12,
+        "point_order": 12,
+        "total_points": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9035828,
+          37.485342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 8,
+        "name": "노선8",
+        "usage": 40.0,
+        "timestamp": 13,
+        "point_order": 13,
+        "total_points": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9029622,
+          37.4846025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 8,
+        "name": "노선8",
+        "usage": 40.0,
+        "timestamp": 14,
+        "point_order": 14,
+        "total_points": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9028524,
+          37.4844932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 8,
+        "name": "노선8",
+        "usage": 40.0,
+        "timestamp": 15,
+        "point_order": 15,
+        "total_points": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9027421,
+          37.4845338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 8,
+        "name": "노선8",
+        "usage": 40.0,
+        "timestamp": 16,
+        "point_order": 16,
+        "total_points": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9026934,
+          37.4845556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 8,
+        "name": "노선8",
+        "usage": 40.0,
+        "timestamp": 17,
+        "point_order": 17,
+        "total_points": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9027098,
+          37.4845781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 8,
+        "name": "노선8",
+        "usage": 40.0,
+        "timestamp": 18,
+        "point_order": 18,
+        "total_points": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9027193,
+          37.4845867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 8,
+        "name": "노선8",
+        "usage": 40.0,
+        "timestamp": 19,
+        "point_order": 19,
+        "total_points": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9015051,
+          37.4845688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 8,
+        "name": "노선8",
+        "usage": 40.0,
+        "timestamp": 20,
+        "point_order": 20,
+        "total_points": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9012953,
+          37.484809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 9,
+        "name": "노선9",
+        "usage": 34.0,
+        "timestamp": 0,
+        "point_order": 0,
+        "total_points": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9976043,
+          37.5731952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 9,
+        "name": "노선9",
+        "usage": 34.0,
+        "timestamp": 1,
+        "point_order": 1,
+        "total_points": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9975895,
+          37.5733619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 9,
+        "name": "노선9",
+        "usage": 34.0,
+        "timestamp": 2,
+        "point_order": 2,
+        "total_points": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9966047,
+          37.573362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 9,
+        "name": "노선9",
+        "usage": 34.0,
+        "timestamp": 3,
+        "point_order": 3,
+        "total_points": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9963767,
+          37.5740861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 9,
+        "name": "노선9",
+        "usage": 34.0,
+        "timestamp": 4,
+        "point_order": 4,
+        "total_points": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9962813,
+          37.5744594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 9,
+        "name": "노선9",
+        "usage": 34.0,
+        "timestamp": 5,
+        "point_order": 5,
+        "total_points": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.99623,
+          37.5746654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 9,
+        "name": "노선9",
+        "usage": 34.0,
+        "timestamp": 6,
+        "point_order": 6,
+        "total_points": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9958189,
+          37.5758838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 9,
+        "name": "노선9",
+        "usage": 34.0,
+        "timestamp": 7,
+        "point_order": 7,
+        "total_points": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.995723,
+          37.5762022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 9,
+        "name": "노선9",
+        "usage": 34.0,
+        "timestamp": 8,
+        "point_order": 8,
+        "total_points": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9957771,
+          37.5763711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 9,
+        "name": "노선9",
+        "usage": 34.0,
+        "timestamp": 9,
+        "point_order": 9,
+        "total_points": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9918588,
+          37.5775514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 9,
+        "name": "노선9",
+        "usage": 34.0,
+        "timestamp": 10,
+        "point_order": 10,
+        "total_points": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9914156,
+          37.5757505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 9,
+        "name": "노선9",
+        "usage": 34.0,
+        "timestamp": 11,
+        "point_order": 11,
+        "total_points": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9922077,
+          37.5742903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 9,
+        "name": "노선9",
+        "usage": 34.0,
+        "timestamp": 12,
+        "point_order": 12,
+        "total_points": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9933421,
+          37.5726227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 9,
+        "name": "노선9",
+        "usage": 34.0,
+        "timestamp": 13,
+        "point_order": 13,
+        "total_points": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9935033,
+          37.5722977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 9,
+        "name": "노선9",
+        "usage": 34.0,
+        "timestamp": 14,
+        "point_order": 14,
+        "total_points": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9937631,
+          37.5715117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 9,
+        "name": "노선9",
+        "usage": 34.0,
+        "timestamp": 15,
+        "point_order": 15,
+        "total_points": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9937629,
+          37.570887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 9,
+        "name": "노선9",
+        "usage": 34.0,
+        "timestamp": 16,
+        "point_order": 16,
+        "total_points": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9937679,
+          37.5705833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 9,
+        "name": "노선9",
+        "usage": 34.0,
+        "timestamp": 17,
+        "point_order": 17,
+        "total_points": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9942755,
+          37.5705884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 10,
+        "name": "노선10",
+        "usage": 50.0,
+        "timestamp": 0,
+        "point_order": 0,
+        "total_points": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0534019,
+          37.5452991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 10,
+        "name": "노선10",
+        "usage": 50.0,
+        "timestamp": 1,
+        "point_order": 1,
+        "total_points": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0531656,
+          37.5447934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 10,
+        "name": "노선10",
+        "usage": 50.0,
+        "timestamp": 2,
+        "point_order": 2,
+        "total_points": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0549362,
+          37.5442633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 10,
+        "name": "노선10",
+        "usage": 50.0,
+        "timestamp": 3,
+        "point_order": 3,
+        "total_points": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.055168,
+          37.5447666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 10,
+        "name": "노선10",
+        "usage": 50.0,
+        "timestamp": 4,
+        "point_order": 4,
+        "total_points": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0552393,
+          37.5448967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 10,
+        "name": "노선10",
+        "usage": 50.0,
+        "timestamp": 5,
+        "point_order": 5,
+        "total_points": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0571345,
+          37.5443319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 10,
+        "name": "노선10",
+        "usage": 50.0,
+        "timestamp": 6,
+        "point_order": 6,
+        "total_points": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0572516,
+          37.5448544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 10,
+        "name": "노선10",
+        "usage": 50.0,
+        "timestamp": 7,
+        "point_order": 7,
+        "total_points": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.05769,
+          37.54642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 10,
+        "name": "노선10",
+        "usage": 50.0,
+        "timestamp": 8,
+        "point_order": 8,
+        "total_points": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0586384,
+          37.5461276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 10,
+        "name": "노선10",
+        "usage": 50.0,
+        "timestamp": 9,
+        "point_order": 9,
+        "total_points": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.059965,
+          37.5457316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 10,
+        "name": "노선10",
+        "usage": 50.0,
+        "timestamp": 10,
+        "point_order": 10,
+        "total_points": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0614099,
+          37.545291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 10,
+        "name": "노선10",
+        "usage": 50.0,
+        "timestamp": 11,
+        "point_order": 11,
+        "total_points": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0617583,
+          37.5460243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 10,
+        "name": "노선10",
+        "usage": 50.0,
+        "timestamp": 12,
+        "point_order": 12,
+        "total_points": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0621095,
+          37.5467635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 10,
+        "name": "노선10",
+        "usage": 50.0,
+        "timestamp": 13,
+        "point_order": 13,
+        "total_points": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0635381,
+          37.5463336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 10,
+        "name": "노선10",
+        "usage": 50.0,
+        "timestamp": 14,
+        "point_order": 14,
+        "total_points": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0652334,
+          37.5458295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 10,
+        "name": "노선10",
+        "usage": 50.0,
+        "timestamp": 15,
+        "point_order": 15,
+        "total_points": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0654576,
+          37.5462543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 10,
+        "name": "노선10",
+        "usage": 50.0,
+        "timestamp": 16,
+        "point_order": 16,
+        "total_points": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0659308,
+          37.54709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 10,
+        "name": "노선10",
+        "usage": 50.0,
+        "timestamp": 17,
+        "point_order": 17,
+        "total_points": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.066584,
+          37.5469103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 10,
+        "name": "노선10",
+        "usage": 50.0,
+        "timestamp": 18,
+        "point_order": 18,
+        "total_points": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0671616,
+          37.5479331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 10,
+        "name": "노선10",
+        "usage": 50.0,
+        "timestamp": 19,
+        "point_order": 19,
+        "total_points": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0672018,
+          37.5477488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 10,
+        "name": "노선10",
+        "usage": 50.0,
+        "timestamp": 20,
+        "point_order": 20,
+        "total_points": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0671768,
+          37.547704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 10,
+        "name": "노선10",
+        "usage": 50.0,
+        "timestamp": 21,
+        "point_order": 21,
+        "total_points": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0670687,
+          37.5475179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 11,
+        "name": "노선11",
+        "usage": 87.0,
+        "timestamp": 0,
+        "point_order": 0,
+        "total_points": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0227269,
+          37.575464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 11,
+        "name": "노선11",
+        "usage": 87.0,
+        "timestamp": 1,
+        "point_order": 1,
+        "total_points": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0232184,
+          37.5756584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 11,
+        "name": "노선11",
+        "usage": 87.0,
+        "timestamp": 2,
+        "point_order": 2,
+        "total_points": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0232331,
+          37.5755003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 11,
+        "name": "노선11",
+        "usage": 87.0,
+        "timestamp": 3,
+        "point_order": 3,
+        "total_points": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0232514,
+          37.5749328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 11,
+        "name": "노선11",
+        "usage": 87.0,
+        "timestamp": 4,
+        "point_order": 4,
+        "total_points": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0232622,
+          37.574496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 11,
+        "name": "노선11",
+        "usage": 87.0,
+        "timestamp": 5,
+        "point_order": 5,
+        "total_points": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0233304,
+          37.5730129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 11,
+        "name": "노선11",
+        "usage": 87.0,
+        "timestamp": 6,
+        "point_order": 6,
+        "total_points": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0233382,
+          37.5723196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 11,
+        "name": "노선11",
+        "usage": 87.0,
+        "timestamp": 7,
+        "point_order": 7,
+        "total_points": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.023349,
+          37.572089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 11,
+        "name": "노선11",
+        "usage": 87.0,
+        "timestamp": 8,
+        "point_order": 8,
+        "total_points": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.023354,
+          37.5719828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 11,
+        "name": "노선11",
+        "usage": 87.0,
+        "timestamp": 9,
+        "point_order": 9,
+        "total_points": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0233896,
+          37.5714637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 11,
+        "name": "노선11",
+        "usage": 87.0,
+        "timestamp": 10,
+        "point_order": 10,
+        "total_points": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0229451,
+          37.5715912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 11,
+        "name": "노선11",
+        "usage": 87.0,
+        "timestamp": 11,
+        "point_order": 11,
+        "total_points": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0191555,
+          37.5708833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 11,
+        "name": "노선11",
+        "usage": 87.0,
+        "timestamp": 12,
+        "point_order": 12,
+        "total_points": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0181221,
+          37.570364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 11,
+        "name": "노선11",
+        "usage": 87.0,
+        "timestamp": 13,
+        "point_order": 13,
+        "total_points": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0176192,
+          37.5701134
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 11,
+        "name": "노선11",
+        "usage": 87.0,
+        "timestamp": 14,
+        "point_order": 14,
+        "total_points": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0158688,
+          37.569616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 11,
+        "name": "노선11",
+        "usage": 87.0,
+        "timestamp": 15,
+        "point_order": 15,
+        "total_points": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0141911,
+          37.5695983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 11,
+        "name": "노선11",
+        "usage": 87.0,
+        "timestamp": 16,
+        "point_order": 16,
+        "total_points": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0121666,
+          37.5695797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 11,
+        "name": "노선11",
+        "usage": 87.0,
+        "timestamp": 17,
+        "point_order": 17,
+        "total_points": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0097763,
+          37.5696179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 11,
+        "name": "노선11",
+        "usage": 87.0,
+        "timestamp": 18,
+        "point_order": 18,
+        "total_points": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0098052,
+          37.5693376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 11,
+        "name": "노선11",
+        "usage": 87.0,
+        "timestamp": 19,
+        "point_order": 19,
+        "total_points": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0098055,
+          37.568976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 11,
+        "name": "노선11",
+        "usage": 87.0,
+        "timestamp": 20,
+        "point_order": 20,
+        "total_points": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0095334,
+          37.5685085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 11,
+        "name": "노선11",
+        "usage": 87.0,
+        "timestamp": 21,
+        "point_order": 21,
+        "total_points": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0083079,
+          37.5668231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 11,
+        "name": "노선11",
+        "usage": 87.0,
+        "timestamp": 22,
+        "point_order": 22,
+        "total_points": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0085487,
+          37.565837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 12,
+        "name": "노선12",
+        "usage": 29.0,
+        "timestamp": 0,
+        "point_order": 0,
+        "total_points": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9743808,
+          37.569519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 12,
+        "name": "노선12",
+        "usage": 29.0,
+        "timestamp": 1,
+        "point_order": 1,
+        "total_points": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9742705,
+          37.5694372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 12,
+        "name": "노선12",
+        "usage": 29.0,
+        "timestamp": 2,
+        "point_order": 2,
+        "total_points": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9726944,
+          37.5694325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 12,
+        "name": "노선12",
+        "usage": 29.0,
+        "timestamp": 3,
+        "point_order": 3,
+        "total_points": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.972549,
+          37.5700513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 12,
+        "name": "노선12",
+        "usage": 29.0,
+        "timestamp": 4,
+        "point_order": 4,
+        "total_points": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9725486,
+          37.5701892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 12,
+        "name": "노선12",
+        "usage": 29.0,
+        "timestamp": 5,
+        "point_order": 5,
+        "total_points": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9725921,
+          37.5715396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 12,
+        "name": "노선12",
+        "usage": 29.0,
+        "timestamp": 6,
+        "point_order": 6,
+        "total_points": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9725942,
+          37.5716061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 12,
+        "name": "노선12",
+        "usage": 29.0,
+        "timestamp": 7,
+        "point_order": 7,
+        "total_points": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9726083,
+          37.5720389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 12,
+        "name": "노선12",
+        "usage": 29.0,
+        "timestamp": 8,
+        "point_order": 8,
+        "total_points": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9726373,
+          37.5726861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 12,
+        "name": "노선12",
+        "usage": 29.0,
+        "timestamp": 9,
+        "point_order": 9,
+        "total_points": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9726539,
+          37.5731009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 12,
+        "name": "노선12",
+        "usage": 29.0,
+        "timestamp": 10,
+        "point_order": 10,
+        "total_points": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9726915,
+          37.5740414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 12,
+        "name": "노선12",
+        "usage": 29.0,
+        "timestamp": 11,
+        "point_order": 11,
+        "total_points": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9734373,
+          37.57407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 12,
+        "name": "노선12",
+        "usage": 29.0,
+        "timestamp": 12,
+        "point_order": 12,
+        "total_points": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9744778,
+          37.5740805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 12,
+        "name": "노선12",
+        "usage": 29.0,
+        "timestamp": 13,
+        "point_order": 13,
+        "total_points": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9751907,
+          37.5741326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 12,
+        "name": "노선12",
+        "usage": 29.0,
+        "timestamp": 14,
+        "point_order": 14,
+        "total_points": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9781771,
+          37.5743421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 13,
+        "name": "노선13",
+        "usage": 23.0,
+        "timestamp": 0,
+        "point_order": 0,
+        "total_points": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8296805,
+          37.5577062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 13,
+        "name": "노선13",
+        "usage": 23.0,
+        "timestamp": 1,
+        "point_order": 1,
+        "total_points": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8294284,
+          37.5563651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 13,
+        "name": "노선13",
+        "usage": 23.0,
+        "timestamp": 2,
+        "point_order": 2,
+        "total_points": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.830215,
+          37.5562782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 13,
+        "name": "노선13",
+        "usage": 23.0,
+        "timestamp": 3,
+        "point_order": 3,
+        "total_points": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8328521,
+          37.5561708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 13,
+        "name": "노선13",
+        "usage": 23.0,
+        "timestamp": 4,
+        "point_order": 4,
+        "total_points": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8330084,
+          37.5574239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 13,
+        "name": "노선13",
+        "usage": 23.0,
+        "timestamp": 5,
+        "point_order": 5,
+        "total_points": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8331408,
+          37.5583197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 13,
+        "name": "노선13",
+        "usage": 23.0,
+        "timestamp": 6,
+        "point_order": 6,
+        "total_points": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8331716,
+          37.5584794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 13,
+        "name": "노선13",
+        "usage": 23.0,
+        "timestamp": 7,
+        "point_order": 7,
+        "total_points": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8332528,
+          37.5589707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 13,
+        "name": "노선13",
+        "usage": 23.0,
+        "timestamp": 8,
+        "point_order": 8,
+        "total_points": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8332637,
+          37.5590543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 13,
+        "name": "노선13",
+        "usage": 23.0,
+        "timestamp": 9,
+        "point_order": 9,
+        "total_points": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8332737,
+          37.5591301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 14,
+        "name": "노선14",
+        "usage": 24.0,
+        "timestamp": 0,
+        "point_order": 0,
+        "total_points": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0413548,
+          37.5716155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 14,
+        "name": "노선14",
+        "usage": 24.0,
+        "timestamp": 1,
+        "point_order": 1,
+        "total_points": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0462672,
+          37.5685342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 14,
+        "name": "노선14",
+        "usage": 24.0,
+        "timestamp": 2,
+        "point_order": 2,
+        "total_points": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0499774,
+          37.5612376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 14,
+        "name": "노선14",
+        "usage": 24.0,
+        "timestamp": 3,
+        "point_order": 3,
+        "total_points": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0513725,
+          37.5561494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 14,
+        "name": "노선14",
+        "usage": 24.0,
+        "timestamp": 4,
+        "point_order": 4,
+        "total_points": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0455608,
+          37.5538943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 14,
+        "name": "노선14",
+        "usage": 24.0,
+        "timestamp": 5,
+        "point_order": 5,
+        "total_points": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.042416,
+          37.5532037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 14,
+        "name": "노선14",
+        "usage": 24.0,
+        "timestamp": 6,
+        "point_order": 6,
+        "total_points": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0359473,
+          37.550683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 14,
+        "name": "노선14",
+        "usage": 24.0,
+        "timestamp": 7,
+        "point_order": 7,
+        "total_points": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0304956,
+          37.5460358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 14,
+        "name": "노선14",
+        "usage": 24.0,
+        "timestamp": 8,
+        "point_order": 8,
+        "total_points": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0304683,
+          37.5458917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line_id": 14,
+        "name": "노선14",
+        "usage": 24.0,
+        "timestamp": 9,
+        "point_order": 9,
+        "total_points": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0303414,
+          37.5459502
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{"timestamp":"2025-11-10T03:36:37.134168Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-11-10T03:36:37.150141Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/seoul_bike_rent_2022.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-11-10T03:36:37.200986Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/seoul_bike_rent_2022.py","lineno":2,"logger":"py.warnings"}
+{"timestamp":"2025-11-10T03:36:37.414679Z","level":"info","event":"🚀 ===== 2022년 8월 대여 이력 처리 시작 ====","logger":"task.stdout"}
+{"timestamp":"2025-11-10T03:36:37.605372Z","level":"info","event":"Found credentials in environment variables.","logger":"botocore.credentials","filename":"credentials.py","lineno":1224}
+{"timestamp":"2025-11-10T03:36:43.175123Z","level":"info","event":"✅ 유효 정거장 3202개 로드 완료 (from s3://yn-project-seoul-bike/station/station.csv)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T03:36:43.178241Z","level":"info","event":"[2022-08-01] 데이터 수집 시작","logger":"task.stdout"}
+{"timestamp":"2025-11-10T03:39:37.281581Z","level":"info","event":"[2022-08-01] 총 112257건 수집 완료","logger":"task.stdout"}
+{"timestamp":"2025-11-10T03:39:39.090112Z","level":"info","event":"기본 전처리 후 111238건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T03:39:39.097494Z","level":"info","event":"[2022-08-02] 데이터 수집 시작","logger":"task.stdout"}
+{"timestamp":"2025-11-10T03:41:00.756710Z","level":"info","event":"[2022-08-02] 총 59642건 수집 완료","logger":"task.stdout"}
+{"timestamp":"2025-11-10T03:41:01.519322Z","level":"info","event":"기본 전처리 후 59102건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T03:41:01.519717Z","level":"info","event":"[2022-08-03] 데이터 수집 시작","logger":"task.stdout"}

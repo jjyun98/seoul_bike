@@ -1,0 +1,51 @@
+{"timestamp":"2025-11-10T01:38:30.222707Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-11-10T01:38:30.225390Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/seoul_bike_rent_2022.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-11-10T01:38:30.247672Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/seoul_bike_rent_2022.py","lineno":2,"logger":"py.warnings"}
+{"timestamp":"2025-11-10T01:38:30.284271Z","level":"info","event":"Found credentials in environment variables.","logger":"botocore.credentials","filename":"credentials.py","lineno":1224}
+{"timestamp":"2025-11-10T01:38:31.452850Z","level":"info","event":"유효한 정거장 3202개 로드","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:38:34.048732Z","level":"info","event":"2022-09-01 00시: 1~1000 완료 (1000개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:38:35.422409Z","level":"info","event":"2022-09-01 00시: 1001~2000 완료 (2000개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:38:36.769934Z","level":"info","event":"2022-09-01 00시: 2001~3000 완료 (3000개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:38:38.140688Z","level":"info","event":"2022-09-01 00시: 3001~4000 완료 (4000개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:38:39.425213Z","level":"info","event":"2022-09-01 00시: 4001~4061 완료 (4061개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:38:48.318571Z","level":"info","event":"2022-09-01 01시: 요청 실패 - HTTPConnectionPool(host='openapi.seoul.go.kr', port=8088): Max retries exceeded with url: /574d4268426539373930666f4b654e/json/tbCycleRentData/1/1000/2022-09-01/1 (Caused by NameResolutionError(\"<urllib3.connection.HTTPConnection object at 0xffff8db986e0>: Failed to resolve 'openapi.seoul.go.kr' ([Errno -5] No address associated with hostname)\"))","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:38:49.549120Z","level":"info","event":"2022-09-01 02시: 1~1000 완료 (5061개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:38:50.844272Z","level":"info","event":"2022-09-01 02시: 1001~1514 완료 (5575개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:38:53.152377Z","level":"info","event":"2022-09-01 03시: 1~951 완료 (6526개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:38:55.568635Z","level":"info","event":"2022-09-01 04시: 1~811 완료 (7337개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:38:58.213422Z","level":"info","event":"2022-09-01 05시: 1~1000 완료 (8337개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:38:59.498776Z","level":"info","event":"2022-09-01 05시: 1001~1595 완료 (8932개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:39:02.033199Z","level":"info","event":"2022-09-01 06시: 1~1000 완료 (9932개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:39:03.402212Z","level":"info","event":"2022-09-01 06시: 1001~2000 완료 (10932개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:39:04.817636Z","level":"info","event":"2022-09-01 06시: 2001~3000 완료 (11932개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:39:06.139686Z","level":"info","event":"2022-09-01 06시: 3001~3901 완료 (12833개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:39:09.206463Z","level":"info","event":"2022-09-01 07시: 1~1000 완료 (13833개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:39:10.872594Z","level":"info","event":"2022-09-01 07시: 1001~2000 완료 (14833개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:39:12.444753Z","level":"info","event":"2022-09-01 07시: 2001~3000 완료 (15833개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:39:14.074165Z","level":"info","event":"2022-09-01 07시: 3001~4000 완료 (16833개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:39:15.742924Z","level":"info","event":"2022-09-01 07시: 4001~5000 완료 (17833개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:39:17.641173Z","level":"info","event":"2022-09-01 07시: 5001~6000 완료 (18833개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:39:19.403155Z","level":"info","event":"2022-09-01 07시: 6001~7000 완료 (19833개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:39:29.455405Z","level":"info","event":"2022-09-01 07시: 요청 실패 - HTTPConnectionPool(host='openapi.seoul.go.kr', port=8088): Max retries exceeded with url: /574d4268426539373930666f4b654e/json/tbCycleRentData/7001/8000/2022-09-01/7 (Caused by NameResolutionError(\"<urllib3.connection.HTTPConnection object at 0xffff8c780860>: Failed to resolve 'openapi.seoul.go.kr' ([Errno -3] Temporary failure in name resolution)\"))","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:39:32.387958Z","level":"info","event":"2022-09-01 08시: 1~1000 완료 (20833개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:39:34.259953Z","level":"info","event":"2022-09-01 08시: 1001~2000 완료 (21833개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:39:36.175112Z","level":"info","event":"2022-09-01 08시: 2001~3000 완료 (22833개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:39:38.034886Z","level":"info","event":"2022-09-01 08시: 3001~4000 완료 (23833개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:39:39.743296Z","level":"info","event":"2022-09-01 08시: 4001~5000 완료 (24833개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:39:41.521669Z","level":"info","event":"2022-09-01 08시: 5001~6000 완료 (25833개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:39:43.339735Z","level":"info","event":"2022-09-01 08시: 6001~7000 완료 (26833개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:39:45.199628Z","level":"info","event":"2022-09-01 08시: 7001~8000 완료 (27833개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:39:46.994297Z","level":"info","event":"2022-09-01 08시: 8001~9000 완료 (28833개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:39:49.127634Z","level":"info","event":"2022-09-01 08시: 9001~10000 완료 (29833개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:39:51.256713Z","level":"info","event":"2022-09-01 08시: 10001~11000 완료 (30833개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:39:53.403922Z","level":"info","event":"2022-09-01 08시: 11001~12000 완료 (31833개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:40:16.822246Z","level":"info","event":"2022-09-01 08시: 12001~13000 완료 (32833개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:40:16.824961Z","level":"info","event":"2022-09-01 08시: 요청 실패 - HTTPConnectionPool(host='openapi.seoul.go.kr', port=8088): Max retries exceeded with url: /574d4268426539373930666f4b654e/json/tbCycleRentData/13001/14000/2022-09-01/8 (Caused by NameResolutionError(\"<urllib3.connection.HTTPConnection object at 0xffff8b7dd970>: Failed to resolve 'openapi.seoul.go.kr' ([Errno -3] Temporary failure in name resolution)\"))","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:40:18.853810Z","level":"info","event":"2022-09-01 09시: 1~1000 완료 (33833개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:40:20.597206Z","level":"info","event":"2022-09-01 09시: 1001~2000 완료 (34833개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:40:22.473092Z","level":"info","event":"2022-09-01 09시: 2001~3000 완료 (35833개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:40:29.850330Z","level":"info","event":"2022-09-01 09시: 3001~4000 완료 (36833개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:40:31.399138Z","level":"info","event":"2022-09-01 09시: 4001~5000 완료 (37833개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:40:32.807053Z","level":"info","event":"2022-09-01 09시: 5001~6000 완료 (38833개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:40:34.224529Z","level":"info","event":"2022-09-01 09시: 6001~7000 완료 (39833개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:40:35.553920Z","level":"info","event":"2022-09-01 09시: 7001~7384 완료 (40217개 누적)","logger":"task.stdout"}

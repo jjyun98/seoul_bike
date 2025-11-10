@@ -1,0 +1,35 @@
+{"timestamp":"2025-11-10T01:21:20.590819Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-11-10T01:21:20.591628Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/seoul_bike_rent_2022.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-11-10T01:21:20.614040Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/seoul_bike_rent_2022.py","lineno":2,"logger":"py.warnings"}
+{"timestamp":"2025-11-10T01:21:20.729035Z","level":"info","event":"Found credentials in environment variables.","logger":"botocore.credentials","filename":"credentials.py","lineno":1224}
+{"timestamp":"2025-11-10T01:21:21.403869Z","level":"info","event":"유효한 정거장 3202개 로드","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:21:27.383832Z","level":"info","event":"2022-09-01 00시: 1~1000 완료 (1000개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:21:28.772835Z","level":"info","event":"2022-09-01 00시: 1001~2000 완료 (2000개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:21:30.297166Z","level":"info","event":"2022-09-01 00시: 2001~3000 완료 (3000개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:21:31.847237Z","level":"info","event":"2022-09-01 00시: 3001~4000 완료 (4000개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:21:33.279267Z","level":"info","event":"2022-09-01 00시: 4001~4061 완료 (4061개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:21:36.002239Z","level":"info","event":"2022-09-01 01시: 1~1000 완료 (5061개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:21:37.495873Z","level":"info","event":"2022-09-01 01시: 1001~2000 완료 (6061개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:21:38.897850Z","level":"info","event":"2022-09-01 01시: 2001~2709 완료 (6770개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:21:41.155456Z","level":"info","event":"2022-09-01 02시: 1~1000 완료 (7770개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:21:42.347328Z","level":"info","event":"2022-09-01 02시: 1001~1514 완료 (8284개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:21:44.867218Z","level":"info","event":"2022-09-01 03시: 1~951 완료 (9235개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:21:47.521838Z","level":"info","event":"2022-09-01 04시: 1~811 완료 (10046개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:21:49.850764Z","level":"info","event":"2022-09-01 05시: 1~1000 완료 (11046개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:21:51.038872Z","level":"info","event":"2022-09-01 05시: 1001~1595 완료 (11641개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:21:53.550826Z","level":"info","event":"2022-09-01 06시: 1~1000 완료 (12641개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:21:54.845166Z","level":"info","event":"2022-09-01 06시: 1001~2000 완료 (13641개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:21:56.169776Z","level":"info","event":"2022-09-01 06시: 2001~3000 완료 (14641개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:21:57.489604Z","level":"info","event":"2022-09-01 06시: 3001~3901 완료 (15542개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:22:00.981339Z","level":"info","event":"2022-09-01 07시: 1~1000 완료 (16542개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:22:02.738242Z","level":"info","event":"2022-09-01 07시: 1001~2000 완료 (17542개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:22:04.269641Z","level":"info","event":"2022-09-01 07시: 2001~3000 완료 (18542개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:22:06.175976Z","level":"info","event":"2022-09-01 07시: 3001~4000 완료 (19542개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:22:07.782944Z","level":"info","event":"2022-09-01 07시: 4001~5000 완료 (20542개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:22:09.407418Z","level":"info","event":"2022-09-01 07시: 5001~6000 완료 (21542개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:22:11.213525Z","level":"info","event":"2022-09-01 07시: 6001~7000 완료 (22542개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:22:12.686865Z","level":"info","event":"2022-09-01 07시: 7001~8000 완료 (23542개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:22:14.114578Z","level":"info","event":"2022-09-01 07시: 8001~9000 완료 (24542개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:22:15.581559Z","level":"info","event":"2022-09-01 07시: 9001~10000 완료 (25542개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:22:17.375081Z","level":"info","event":"2022-09-01 07시: 10001~10310 완료 (25852개 누적)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T01:22:17.627622Z","level":"error","event":"Task failed with exception","logger":"task","filename":"task_runner.py","lineno":999,"error_detail":[{"exc_type":"JSONDecodeError","exc_value":"Expecting value: line 1 column 1 (char 0)","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":925,"name":"run"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":1312,"name":"_execute_task"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/bases/operator.py","lineno":416,"name":"wrapper"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":213,"name":"execute"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":236,"name":"execute_callable"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/callback_runner.py","lineno":82,"name":"run"},{"filename":"/opt/airflow/dags/seoul_bike_rent_2022.py","lineno":37,"name":"collect_month"},{"filename":"/opt/airflow/plugins/rent_history_utils.py","lineno":38,"name":"get_rent_history_by_month"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/requests/models.py","lineno":980,"name":"json"}],"is_group":false,"exceptions":[]},{"exc_type":"JSONDecodeError","exc_value":"Expecting value: line 1 column 1 (char 0)","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.12/site-packages/requests/models.py","lineno":976,"name":"json"},{"filename":"/usr/python/lib/python3.12/json/__init__.py","lineno":346,"name":"loads"},{"filename":"/usr/python/lib/python3.12/json/decoder.py","lineno":338,"name":"decode"},{"filename":"/usr/python/lib/python3.12/json/decoder.py","lineno":356,"name":"raw_decode"}],"is_group":false,"exceptions":[]}]}

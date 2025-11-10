@@ -1,0 +1,11 @@
+{"timestamp":"2025-11-10T03:36:38.554587Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-11-10T03:36:38.585659Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/seoul_bike_rent_2022.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-11-10T03:36:38.683726Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/seoul_bike_rent_2022.py","lineno":2,"logger":"py.warnings"}
+{"timestamp":"2025-11-10T03:36:38.840160Z","level":"info","event":"🚀 ===== 2022년 4월 대여 이력 처리 시작 ====","logger":"task.stdout"}
+{"timestamp":"2025-11-10T03:36:39.011777Z","level":"info","event":"Found credentials in environment variables.","logger":"botocore.credentials","filename":"credentials.py","lineno":1224}
+{"timestamp":"2025-11-10T03:36:43.181571Z","level":"info","event":"✅ 유효 정거장 3202개 로드 완료 (from s3://yn-project-seoul-bike/station/station.csv)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T03:36:43.196447Z","level":"info","event":"[2022-04-01] 데이터 수집 시작","logger":"task.stdout"}
+{"timestamp":"2025-11-10T03:39:50.009734Z","level":"info","event":"[2022-04-01] 총 121046건 수집 완료","logger":"task.stdout"}
+{"timestamp":"2025-11-10T03:39:51.109862Z","level":"info","event":"기본 전처리 후 119925건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T03:39:51.110609Z","level":"info","event":"[2022-04-02] 데이터 수집 시작","logger":"task.stdout"}
+{"timestamp":"2025-11-10T03:40:05.645261Z","level":"critical","event":"Process terminated by signal. Likely out of memory error (OOM). For more information, see https://airflow.apache.org/docs/apache-airflow/stable/troubleshooting.html#process-terminated-by-signal.","signal":-9,"signal_name":"SIGKILL","logger":"task"}

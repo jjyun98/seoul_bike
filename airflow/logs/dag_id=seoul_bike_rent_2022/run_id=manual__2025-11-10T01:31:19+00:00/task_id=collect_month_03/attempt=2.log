@@ -1,0 +1,17 @@
+{"timestamp":"2025-11-10T03:36:37.688486Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-11-10T03:36:37.694761Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/seoul_bike_rent_2022.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-11-10T03:36:37.792753Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/seoul_bike_rent_2022.py","lineno":2,"logger":"py.warnings"}
+{"timestamp":"2025-11-10T03:36:37.977502Z","level":"info","event":"🚀 ===== 2022년 3월 대여 이력 처리 시작 ====","logger":"task.stdout"}
+{"timestamp":"2025-11-10T03:36:38.090096Z","level":"info","event":"Found credentials in environment variables.","logger":"botocore.credentials","filename":"credentials.py","lineno":1224}
+{"timestamp":"2025-11-10T03:36:42.761088Z","level":"info","event":"✅ 유효 정거장 3202개 로드 완료 (from s3://yn-project-seoul-bike/station/station.csv)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T03:36:42.854071Z","level":"info","event":"[2022-03-01] 데이터 수집 시작","logger":"task.stdout"}
+{"timestamp":"2025-11-10T03:37:46.357579Z","level":"info","event":"[2022-03-01] 총 52117건 수집 완료","logger":"task.stdout"}
+{"timestamp":"2025-11-10T03:37:46.866000Z","level":"info","event":"기본 전처리 후 51644건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T03:37:46.866455Z","level":"info","event":"[2022-03-02] 데이터 수집 시작","logger":"task.stdout"}
+{"timestamp":"2025-11-10T03:39:16.575930Z","level":"info","event":"[2022-03-02] 총 73307건 수집 완료","logger":"task.stdout"}
+{"timestamp":"2025-11-10T03:39:17.333629Z","level":"info","event":"기본 전처리 후 72657건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T03:39:17.364320Z","level":"info","event":"[2022-03-03] 데이터 수집 시작","logger":"task.stdout"}
+{"timestamp":"2025-11-10T03:41:10.881158Z","level":"info","event":"[2022-03-03] 총 80514건 수집 완료","logger":"task.stdout"}
+{"timestamp":"2025-11-10T03:41:11.759994Z","level":"info","event":"기본 전처리 후 79804건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T03:41:11.760281Z","level":"info","event":"[2022-03-04] 데이터 수집 시작","logger":"task.stdout"}
+{"timestamp":"2025-11-10T03:41:27.266848Z","level":"critical","event":"Process terminated by signal. Likely out of memory error (OOM). For more information, see https://airflow.apache.org/docs/apache-airflow/stable/troubleshooting.html#process-terminated-by-signal.","signal":-9,"signal_name":"SIGKILL","logger":"task"}

@@ -1,0 +1,12 @@
+{"timestamp":"2025-11-10T03:36:37.104677Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-11-10T03:36:37.105408Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/seoul_bike_rent_2022.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-11-10T03:36:37.183252Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/seoul_bike_rent_2022.py","lineno":2,"logger":"py.warnings"}
+{"timestamp":"2025-11-10T03:36:37.325369Z","level":"info","event":"🚀 ===== 2022년 11월 대여 이력 처리 시작 ====","logger":"task.stdout"}
+{"timestamp":"2025-11-10T03:36:37.525698Z","level":"info","event":"Found credentials in environment variables.","logger":"botocore.credentials","filename":"credentials.py","lineno":1224}
+{"timestamp":"2025-11-10T03:36:39.805795Z","level":"info","event":"✅ 유효 정거장 3202개 로드 완료 (from s3://yn-project-seoul-bike/station/station.csv)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T03:36:39.832971Z","level":"info","event":"[2022-11-01] 데이터 수집 시작","logger":"task.stdout"}
+{"timestamp":"2025-11-10T03:36:43.689834Z","level":"info","event":"!! [2022-11-01 00시] API 요청 실패: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2025-11-10T03:40:17.063004Z","level":"info","event":"!! [2022-11-01 18시] API 요청 실패: HTTPConnectionPool(host='openapi.seoul.go.kr', port=8088): Max retries exceeded with url: /574d4268426539373930666f4b654e/json/tbCycleRentData/1001/2000/2022-11-01/18 (Caused by NameResolutionError(\"<urllib3.connection.HTTPConnection object at 0xffff7e44ccb0>: Failed to resolve 'openapi.seoul.go.kr' ([Errno -3] Temporary failure in name resolution)\"))","logger":"task.stdout"}
+{"timestamp":"2025-11-10T03:41:33.734471Z","level":"info","event":"[2022-11-01] 총 148011건 수집 완료","logger":"task.stdout"}
+{"timestamp":"2025-11-10T03:41:34.986212Z","level":"info","event":"기본 전처리 후 146739건","logger":"task.stdout"}
+{"timestamp":"2025-11-10T03:41:34.986574Z","level":"info","event":"[2022-11-02] 데이터 수집 시작","logger":"task.stdout"}

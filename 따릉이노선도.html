@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b33a7df7f2acfef487b1a0e7a64d6071 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b33a7df7f2acfef487b1a0e7a64d6071" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b33a7df7f2acfef487b1a0e7a64d6071 = L.map(
+                "map_b33a7df7f2acfef487b1a0e7a64d6071",
+                {
+                    center: [37.5665, 126.978],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2f8b017c086ad003328ed2a317144042 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_2f8b017c086ad003328ed2a317144042.addTo(map_b33a7df7f2acfef487b1a0e7a64d6071);
+        
+    
+            var poly_line_b7dd645adb01d81cc61c563d83ff6cea = L.polyline(
+                [[37.5202488, 126.9618906], [37.517212, 126.9691549], [37.5169348, 126.9707971], [37.5161214, 126.9731943], [37.5152481, 126.9830282], [37.5153968, 126.9867339], [37.5185118, 126.9931156]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_b33a7df7f2acfef487b1a0e7a64d6071);
+        
+    
+            poly_line_b7dd645adb01d81cc61c563d83ff6cea.bindTooltip(
+                `<div>
+                     노선 0: 7개 노드, 222회 이용
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_828f0a95884969f3c51632a7e59b0dda = L.circleMarker(
+                [37.5202488, 126.9618906],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b33a7df7f2acfef487b1a0e7a64d6071);
+        
+    
+        var popup_70b6a0314eb4ac25ab808e101b8287a3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_17f10e6df51df551710da56d00a2463f = $(`<div id="html_17f10e6df51df551710da56d00a2463f" style="width: 100.0%; height: 100.0%;">노선 0 시작</div>`)[0];
+                popup_70b6a0314eb4ac25ab808e101b8287a3.setContent(html_17f10e6df51df551710da56d00a2463f);
+            
+        
+
+        circle_marker_828f0a95884969f3c51632a7e59b0dda.bindPopup(popup_70b6a0314eb4ac25ab808e101b8287a3)
+        ;
+
+        
+    
+    
+            var circle_marker_7f2a22910ef2fa36661cc459962869b0 = L.circleMarker(
+                [37.5185118, 126.9931156],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b33a7df7f2acfef487b1a0e7a64d6071);
+        
+    
+        var popup_92cf744801174a76e2afb5f23328de44 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b0547609e9119d775c141aafc4f8dff4 = $(`<div id="html_b0547609e9119d775c141aafc4f8dff4" style="width: 100.0%; height: 100.0%;">노선 0 종점</div>`)[0];
+                popup_92cf744801174a76e2afb5f23328de44.setContent(html_b0547609e9119d775c141aafc4f8dff4);
+            
+        
+
+        circle_marker_7f2a22910ef2fa36661cc459962869b0.bindPopup(popup_92cf744801174a76e2afb5f23328de44)
+        ;
+
+        
+    
+    
+            var poly_line_e91458085024e76eac9c5bb2fc5927a5 = L.polyline(
+                [[37.4305457, 127.0486804], [37.4336322, 127.0488168], [37.4335891, 127.0548409], [37.4368039, 127.06281], [37.4404217, 127.0598315], [37.4443337, 127.0569293], [37.4514064, 127.050775], [37.4517129, 127.05161], [37.4531369, 127.0513921], [37.4545664, 127.0506858], [37.45539, 127.0499947], [37.4561536, 127.0510815], [37.4564816, 127.0503662], [37.4583959, 127.048953], [37.4611581, 127.046234], [37.4612262, 127.0463717], [37.4652297, 127.0390216], [37.4695383, 127.0380273], [37.4733797, 127.0375204], [37.4734131, 127.0364761], [37.4738434, 127.036336], [37.4749901, 127.0389716], [37.476824, 127.0411725], [37.4794223, 127.043455], [37.4797907, 127.0437867], [37.4807756, 127.0446601], [37.490646, 127.0672575], [37.5003279, 127.0722673], [37.5005882, 127.0722199], [37.5128654, 127.0677154], [37.5129692, 127.0688057], [37.5154329, 127.0684398], [37.5154639, 127.068697], [37.5190836, 127.0749825], [37.5183088, 127.0845459], [37.5183327, 127.0847627], [37.5183539, 127.0849549], [37.5202569, 127.0948499], [37.522289, 127.0993323], [37.5231203, 127.1007342], [37.5231534, 127.1007145], [37.5232024, 127.100849], [37.5245925, 127.1022088], [37.524637, 127.1021764]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_b33a7df7f2acfef487b1a0e7a64d6071);
+        
+    
+            poly_line_e91458085024e76eac9c5bb2fc5927a5.bindTooltip(
+                `<div>
+                     노선 1: 44개 노드, 1726회 이용
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2035237c527d9540ff13fcb92cfbb8ed = L.circleMarker(
+                [37.4305457, 127.0486804],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b33a7df7f2acfef487b1a0e7a64d6071);
+        
+    
+        var popup_8b485dc26af83833fec5f091d7ebe8ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ed252c4893fe9be66a124188eb6e5af9 = $(`<div id="html_ed252c4893fe9be66a124188eb6e5af9" style="width: 100.0%; height: 100.0%;">노선 1 시작</div>`)[0];
+                popup_8b485dc26af83833fec5f091d7ebe8ec.setContent(html_ed252c4893fe9be66a124188eb6e5af9);
+            
+        
+
+        circle_marker_2035237c527d9540ff13fcb92cfbb8ed.bindPopup(popup_8b485dc26af83833fec5f091d7ebe8ec)
+        ;
+
+        
+    
+    
+            var circle_marker_e41a198c19976b60ed09405e8224259d = L.circleMarker(
+                [37.524637, 127.1021764],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b33a7df7f2acfef487b1a0e7a64d6071);
+        
+    
+        var popup_1283c8527c988103e8b1481ce7590f49 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_92226803a0c453fcabe07cc0989a82ea = $(`<div id="html_92226803a0c453fcabe07cc0989a82ea" style="width: 100.0%; height: 100.0%;">노선 1 종점</div>`)[0];
+                popup_1283c8527c988103e8b1481ce7590f49.setContent(html_92226803a0c453fcabe07cc0989a82ea);
+            
+        
+
+        circle_marker_e41a198c19976b60ed09405e8224259d.bindPopup(popup_1283c8527c988103e8b1481ce7590f49)
+        ;
+
+        
+    
+    
+            var poly_line_c7ec8b949aae2b5241f68c163db55971 = L.polyline(
+                [[37.5561494, 127.0513725], [37.5538943, 127.0455608], [37.5532037, 127.042416], [37.550683, 127.0359473], [37.5460358, 127.0304956], [37.5459502, 127.0303414], [37.5458917, 127.0304683], [37.5446333, 127.0315956], [37.540204, 127.0353025], [37.5399895, 127.0357927], [37.5377792, 127.0418324], [37.534305, 127.0549757], [37.5322352, 127.0597835], [37.5304905, 127.0633174], [37.5295268, 127.0655532], [37.5293581, 127.0659996], [37.5267912, 127.0801609], [37.5276103, 127.0881007], [37.5278384, 127.0885424], [37.5326937, 127.0946393], [37.5406263, 127.1040691], [37.5454909, 127.1089223], [37.5496611, 127.110504], [37.550333, 127.110589], [37.5503428, 127.109756], [37.5499961, 127.1095432], [37.5503666, 127.1087805], [37.5508831, 127.1091129], [37.5514005, 127.1091543], [37.5519147, 127.1095343], [37.5530533, 127.1112615], [37.5537539, 127.1112215], [37.5571878, 127.1113185], [37.5556818, 127.1096736], [37.5575686, 127.110082], [37.5581966, 127.1107228], [37.5582348, 127.1108909], [37.5597433, 127.1129027]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_b33a7df7f2acfef487b1a0e7a64d6071);
+        
+    
+            poly_line_c7ec8b949aae2b5241f68c163db55971.bindTooltip(
+                `<div>
+                     노선 2: 38개 노드, 1900회 이용
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f17951ce9de1b1f49e0029b2da4f67be = L.circleMarker(
+                [37.5561494, 127.0513725],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b33a7df7f2acfef487b1a0e7a64d6071);
+        
+    
+        var popup_7dc42364804677595e2a28f1df510e97 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e9c6bf7c4c72d3ee056bee6161b9f8e = $(`<div id="html_1e9c6bf7c4c72d3ee056bee6161b9f8e" style="width: 100.0%; height: 100.0%;">노선 2 시작</div>`)[0];
+                popup_7dc42364804677595e2a28f1df510e97.setContent(html_1e9c6bf7c4c72d3ee056bee6161b9f8e);
+            
+        
+
+        circle_marker_f17951ce9de1b1f49e0029b2da4f67be.bindPopup(popup_7dc42364804677595e2a28f1df510e97)
+        ;
+
+        
+    
+    
+            var circle_marker_7f1fc542843cc0c1936ba9f8cad839ca = L.circleMarker(
+                [37.5597433, 127.1129027],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b33a7df7f2acfef487b1a0e7a64d6071);
+        
+    
+        var popup_43b8fecd63db04c18773308129cc7093 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e25ae12f9a027741656da834646f0e39 = $(`<div id="html_e25ae12f9a027741656da834646f0e39" style="width: 100.0%; height: 100.0%;">노선 2 종점</div>`)[0];
+                popup_43b8fecd63db04c18773308129cc7093.setContent(html_e25ae12f9a027741656da834646f0e39);
+            
+        
+
+        circle_marker_7f1fc542843cc0c1936ba9f8cad839ca.bindPopup(popup_43b8fecd63db04c18773308129cc7093)
+        ;
+
+        
+    
+</script>
+</html>
